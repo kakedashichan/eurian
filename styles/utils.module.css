@@ -1,0 +1,182 @@
+.headingCenter {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin: 0 0 1.25rem;
+}
+
+.flex {
+  margin: 1rem auto;
+  display: flex;
+}
+
+.flexIcon {
+  margin-top: 1rem;
+  width: 50px;
+  flex-shrink: 0;
+}
+
+.flexComment {
+  background-color: white;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 4px solid brown;
+}
+
+.fin {
+  text-align: center; 
+  font-size: 3rem;
+  font-family: serif;
+}
+
+@media (min-width: 768px) {
+  .flexIcon {
+    width: 100px;
+  }
+     
+  .flexComment {
+    font-size: 1.3rem;
+  }
+}
+
+.flexReverse {
+  flex-direction: column-reverse;
+}
+
+.appealText {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.text {
+  font-size: 1rem;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 650px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .text {
+    font-size: 1.5rem;
+  }
+}
+
+.readButtonWrapper {
+  width: 80%;
+  margin: 5px auto;
+}
+
+.readButtonWrapper:hover {
+  opacity: 0.5;
+}
+
+.headingWrapper {
+  background-color: navy;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin: 30px auto;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.checkList {
+  background-color: beige;
+  border: 3px solid blue;
+  width: 90%;
+  margin: 30px auto;
+  padding: 0.5rem 1rem 0.5rem 2rem;
+}
+
+.checkListItem {
+  list-style-type: circle;
+}
+
+.svgWrapper {
+  text-align: center;
+  width: 200px;
+  margin: 30px auto;
+}
+
+
+.lpAuthorWrapper {
+  width: 90%;
+  margin: 30px auto;
+  padding: 1rem;
+  border: 1px solid grey;
+  box-shadow: 5px 5px 5px 0px #CCCCCC;
+  background-color: rgb(255, 255, 255);
+}
+
+.lpGreetingWrapper {
+  width: 90%;
+  margin: 30px auto;
+  padding: 1rem;
+  border: 1px solid grey;
+  box-shadow: 5px 5px 5px 0px #CCCCCC;
+  background-color: rgb(255, 252, 240);
+}
+
+.lpIconWrapper {
+  width: 30%;
+}
+
+.authorText {
+  width: 60%;
+
+  align-self: center;
+  text-align: center;
+}
+
+.voiceSummary {
+  font-weight: bold;
+  border-bottom: 0.5rem solid red;
+  padding: 10px 1rem;
+}
+
+.small {
+  text-align: right;
+  margin: 1rem;
+  font-size: 0.5rem;
+}
+
+.faq {
+  width: 90%;
+  margin: 10px auto;
+  background-color: rgb(255, 252, 240);
+  border: 1px solid black;
+}
+
+.question {
+  padding: 0.5rem;  
+}
+
+.answer {
+  padding: 0.5rem;
+}
+
+/*
+5000兆円フォントをやろうと思ったけれどやめた
+
+.juman {
+  color: red;
+  font-size: 2rem;
+
+}
+*/
