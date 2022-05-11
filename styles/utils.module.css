@@ -147,7 +147,12 @@
 .voiceSummary {
   font-weight: bold;
   border-bottom: 0.5rem solid red;
-  padding: 10px 1rem;
+}
+
+@media (min-width: 768px) {
+  .voiceSummary {
+    padding: 10px 1rem;
+  }
 }
 
 .small {
