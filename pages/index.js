@@ -143,7 +143,7 @@ export default function Home() {
         <ReadButton />
         <Heading>作者紹介</Heading>
         <Author />
-        <p className={cn(styles.appealText, styles.text)}>漫画をTwitterにアップするアラサー<br />やたら流されるのが悩み</p>
+        <p className={cn(styles.appealText, styles.text)}>漫画をTwitterにアップするいきもの<br />やたら流されるのが悩み</p>
         <Heading>読者の声</Heading>
         <p className={cn(styles.appealText, styles.text)}>＼続々とお声をいただいています！／</p>
         <Voice src="takashi_kun02.png" name="たかしくん" summary="本当に5分で読めました！">
